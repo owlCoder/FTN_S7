@@ -1,0 +1,530 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:msg="http://langdale.com.au/2005/Message#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns="http://iec.ch/TC57/2007/profile#"
+    xmlns:uml="http://langdale.com.au/2005/UML#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://iec.ch/TC57/2007/profile" > 
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffa">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5e">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.ratedS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ff7">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4a">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4b"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.leakageImpedance0Percent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe7">
+    <rdfs:label>customType</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3a">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.noLoadLoss"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f37">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.phaseShift"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3f">
+    <rdfs:label>loadLoss</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#KWActivePower"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#WindingTest">
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4a"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f44"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f49"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2f"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f38"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2e"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f41"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3a"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f37"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3e"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f47"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f40"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f65">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f66"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.connectionType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f56">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f57"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.phaseToPhaseVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5a">
+    <rdfs:label>phaseToGroundVoltage</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Voltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fff">
+    <rdfs:label>description</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f64">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.connectionType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe0">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe1"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment.private"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f50">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f51"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ConductingEquipment.BaseVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2e">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.From_TransformerWinding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f60">
+    <rdfs:label>ratedS</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ApparentPower"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fdb">
+    <rdfs:label>ratedVoltage</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PowerTransformer">
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f34"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f35"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4d"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:resource="#Equipment"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerTransformer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f54">
+    <rdfs:label>nominalVoltage</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Voltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f40">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.leakageImpedance"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Location">
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe9"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fec"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4b">
+    <rdfs:label>leakageImpedance0Percent</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PerCent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5f">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f60"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.ratedS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4e">
+    <rdfs:label>autotransformer</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffb">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffc"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3e">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3f"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.loadLoss"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe6">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe7"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerSystemResource.customType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f30">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>From_TransformerWinding</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f36">
+    <rdfs:label>function</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerFunctionKind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5b">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.ratedU"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fea">
+    <rdfs:label>corporateCode</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://langdale.com.au/2007/Buildlet#legacy-rdfs">
+    <rdf:type rdf:resource="http://langdale.com.au/2005/Message#Flag"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f63">
+    <rdfs:label>grounded</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f57">
+    <rdfs:label>phaseToPhaseVoltage</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Voltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2b">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.PowerTransformer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe1">
+    <rdfs:label>private</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3b">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3c"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.noLoadLoss"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#WindingConnection">
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2f">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f30"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.From_TransformerWinding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f47">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f48"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.leakageImpedanceMaxPercent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#WindingType">
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#TransformerFunctionKind">
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerFunctionKind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fda">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fdb"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ConductingEquipment.ratedVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f6b">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f6c"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerSystemResource.Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f53">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f54"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BaseVoltage.nominalVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe9">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fea"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Location.corporateCode"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <owl:imports rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15"/>
+    <rdfs:label>Profile</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PowerSystemResource">
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f6b"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe6"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerSystemResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ff9">
+    <rdfs:label>name</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f35">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f36"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerTransformer.function"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f41">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f42"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.leakageImpedance"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ConductingEquipment">
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f50"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fda"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fdd"/>
+    <rdfs:subClassOf rdf:resource="#Equipment"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ConductingEquipment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f67">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.windingType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f68">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f69"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.windingType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#TransformerWinding">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5f"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2c"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f68"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f59"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5c"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f56"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f65"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5e"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5b"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f62"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2b"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f67"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f64"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding"/>
+    <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f61"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f39">
+    <rdfs:label>phaseShift</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#AngleDegrees"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffc">
+    <rdfs:label>mRID</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3d">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.loadLoss"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2c">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2d"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.PowerTransformer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PhaseCode">
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f48">
+    <rdfs:label>leakageImpedanceMaxPercent</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PerCent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f52">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BaseVoltage.nominalVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BaseVoltage">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f52"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f53"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BaseVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f6c">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>Location</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f44">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f45"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.leakageImpedanceMinPercent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fdd">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fde"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ConductingEquipment.phases"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Equipment">
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe0"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe3"/>
+    <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5c">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5d"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.ratedU"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f62">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f63"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.grounded"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ff8">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ff9"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5d">
+    <rdfs:label>ratedU</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Voltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f42">
+    <rdfs:label>leakageImpedance</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Impedance"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f34">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerTransformer.function"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffa"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffb"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ff8"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffe"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ff7"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f38">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f39"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.phaseShift"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f66">
+    <rdfs:label>connectionType</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingConnection"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fed">
+    <rdfs:label>category</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f69">
+    <rdfs:label>windingType</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f3c">
+    <rdfs:label>noLoadLoss</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#KWActivePower"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe4">
+    <rdfs:label>isUnderground</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe3">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fe4"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment.isUnderground"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f59">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f5a"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.phaseToGroundVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f2d">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>PowerTransformer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerTransformer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7ffe">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fff"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.description"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f49">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#WindingTest.leakageImpedance0Percent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fec">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fed"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Location.category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f51">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>BaseVoltage</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BaseVoltage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f45">
+    <rdfs:label>leakageImpedanceMinPercent</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PerCent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7fde">
+    <owl:unionOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdfs:label>phases</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PhaseCode"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f61">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TransformerWinding.grounded"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4d">
+    <owl:allValuesFrom rdf:nodeID="Xd2X3a491fb8Xa3X18b1d920300Xa3X-7f4e"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerTransformer.autotransformer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+</rdf:RDF>
